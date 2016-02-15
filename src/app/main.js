@@ -1,8 +1,8 @@
-import Raycasting from './raycasting';
+import Raytracer from './raytracer';
 
-const raycasting = new Raycasting();
+const raytracer = new Raytracer();
 
-if (raycasting.hasWebGL()) {
+if (raytracer.hasWebGL()) {
   console.log('working');
 } else {
   console.log('not working');
